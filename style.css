@@ -55,10 +55,10 @@ ul{
 .para-image{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 img{
-    max-width: 300px;
+    max-width: 200px;
 }
 .left li{
     
@@ -95,5 +95,9 @@ li{
 .details{
     flex-basis: 300px;
     flex-grow: 1;
+    border-style: solid;
+    border-color: gray;
+    border: 1px 1px 1px 1px;
+    text-align: center;
 }
 
